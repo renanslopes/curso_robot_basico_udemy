@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-06-13T20:31:00.538141" rpa="false" schemaversion="5">
+<suite id="s1" name="Listas" source="C:\Users\renan\Documents\Curso_Robot\Web_Testing\Listas.robot">
+<test id="s1-t1" name="Caso de teste de exemplo 01" line="7">
+<kw name="Uma keyword 01">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Lista carros: ${CARROS[0]}, ${CARROS[1]}, ${CARROS[2]}, ${CARROS[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-13T20:31:00.560116" elapsed="0.001194"/>
+</kw>
+<status status="PASS" start="2025-06-13T20:31:00.559762" elapsed="0.001659"/>
+</kw>
+<status status="PASS" start="2025-06-13T20:31:00.559157" elapsed="0.002436"/>
+</test>
+<status status="PASS" start="2025-06-13T20:31:00.539357" elapsed="0.022818"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Listas" id="s1" pass="1" fail="0" skip="0">Listas</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-13T20:31:00.535317" level="WARN">Error in file 'C:\Users\renan\Documents\Curso_Robot\Web_Testing\Listas.robot' on line 3: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+</errors>
+</robot>

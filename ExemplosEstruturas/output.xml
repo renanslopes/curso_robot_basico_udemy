@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-06-17T16:35:25.116386" rpa="false" schemaversion="5">
+<suite id="s1" name="Exercicios IF LOOPS" source="C:\Users\renan\Downloads\ExemplosEstruturas\Exercicios_IF_LOOPS.robot">
+<test id="s1-t1" name="Teste para Exercicio" line="9">
+<kw name="Usando FOR IN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.139632" elapsed="0.000235"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.140145" elapsed="0.000176"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.140393" elapsed="0.000058"/>
+</kw>
+<var name="${NUMBER}">1</var>
+<status status="PASS" start="2025-06-17T16:35:25.140083" elapsed="0.000389"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.140594" elapsed="0.000163"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.140847" elapsed="0.000081"/>
+</kw>
+<var name="${NUMBER}">2</var>
+<status status="PASS" start="2025-06-17T16:35:25.140549" elapsed="0.000406"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.141093" elapsed="0.000171"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.141348" elapsed="0.000071"/>
+</kw>
+<var name="${NUMBER}">3</var>
+<status status="PASS" start="2025-06-17T16:35:25.141037" elapsed="0.000410"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.141577" elapsed="0.000162"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.141813" elapsed="0.000063"/>
+</kw>
+<var name="${NUMBER}">4</var>
+<status status="PASS" start="2025-06-17T16:35:25.141524" elapsed="0.000377"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142013" elapsed="0.000131"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142203" elapsed="0.000053"/>
+</kw>
+<var name="${NUMBER}">5</var>
+<status status="PASS" start="2025-06-17T16:35:25.141971" elapsed="0.000306"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142382" elapsed="0.000137"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142578" elapsed="0.000047"/>
+</kw>
+<var name="${NUMBER}">6</var>
+<status status="PASS" start="2025-06-17T16:35:25.142341" elapsed="0.000302"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142735" elapsed="0.000129"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.142922" elapsed="0.000049"/>
+</kw>
+<var name="${NUMBER}">7</var>
+<status status="PASS" start="2025-06-17T16:35:25.142697" elapsed="0.000292"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.143078" elapsed="0.000150"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.143314" elapsed="0.000086"/>
+</kw>
+<var name="${NUMBER}">9</var>
+<status status="PASS" start="2025-06-17T16:35:25.143041" elapsed="0.000386"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Meu número é: ${NUMBER}!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.143573" elapsed="0.000179"/>
+</kw>
+<kw name="No Operation" owner="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" start="2025-06-17T16:35:25.143821" elapsed="0.000054"/>
+</kw>
+<var name="${NUMBER}">10</var>
+<status status="PASS" start="2025-06-17T16:35:25.143518" elapsed="0.000377"/>
+</iter>
+<var>${NUMBER}</var>
+<value>@{NUMEROS}</value>
+<status status="PASS" start="2025-06-17T16:35:25.139950" elapsed="0.003965"/>
+</for>
+<status status="PASS" start="2025-06-17T16:35:25.139203" elapsed="0.004760"/>
+</kw>
+<if>
+<branch type="IF" condition="${NUMBER} == 5">
+<kw name="Usando FOR IN">
+<status status="NOT RUN" start="2025-06-17T16:35:25.144281" elapsed="0.000017"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>message=Eu sou o número 5!</arg>
+<arg>console=True</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-06-17T16:35:25.144361" elapsed="0.000013"/>
+</kw>
+<status status="NOT RUN" start="2025-06-17T16:35:25.144085" elapsed="0.000312"/>
+</branch>
+<branch type="ELSE IF" condition="${NUMBER} == 10">
+<kw name="Usando FOR IN">
+<status status="NOT RUN" start="2025-06-17T16:35:25.144575" elapsed="0.000014"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>message=u sou o número 10!</arg>
+<arg>console=True</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-06-17T16:35:25.144661" elapsed="0.000036"/>
+</kw>
+<status status="NOT RUN" start="2025-06-17T16:35:25.144423" elapsed="0.000314"/>
+</branch>
+<status status="PASS" start="2025-06-17T16:35:25.144065" elapsed="0.000701"/>
+</if>
+<status status="PASS" start="2025-06-17T16:35:25.138574" elapsed="0.006387"/>
+</test>
+<doc>Exercício sobre IFs e Loops</doc>
+<status status="PASS" start="2025-06-17T16:35:25.117821" elapsed="0.027741"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Exercicios IF LOOPS" id="s1" pass="1" fail="0" skip="0">Exercicios IF LOOPS</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-17T16:35:25.113189" level="WARN">Error in file 'C:\Users\renan\Downloads\ExemplosEstruturas\Exercicios_IF_LOOPS.robot' on line 8: Singular section headers like '*** Test Case ***' are deprecated. Use plural format like '*** Test Cases ***' instead.</msg>
+</errors>
+</robot>
